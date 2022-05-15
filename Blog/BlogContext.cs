@@ -12,7 +12,7 @@ namespace blog
     {
         public BlogContext() 
         { }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer("Server = ./DESKTOP-AMFD9IR\\SQLSERVER2019; Database = BlogDeNotas; Trusted_Connection = True; ");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer(" Server = DESKTOP-AMFD9IR; Database = BlogDeNotas; Trusted_Connection = True; ");
         public DbSet<User> Users { get; set; }
         public DbSet<Posts> Posts { get; set; }
         public DbSet<Comments> Comments { get; set; }
