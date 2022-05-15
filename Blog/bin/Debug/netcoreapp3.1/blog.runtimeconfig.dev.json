@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AMD320\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AMD320\\.nuget\\packages"
+    ]
+  }
+}
